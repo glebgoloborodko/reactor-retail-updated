@@ -1,0 +1,191 @@
+/************************************************************************************
+RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+    margin: 0;
+    padding: 0;
+}
+
+img, fieldset {
+    border: 0;
+}
+
+/* set image max width to 100% */
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { 
+    display: block;
+}
+
+@font-face {
+    font-family: 'MrsEavesRomanLiningRegular';
+    src: url('../fonts/mrseavromlin-071211001EmigreWebOnly.eot');
+    src: url('../fonts/mrseavromlin-071211001EmigreWebOnly.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/mrseavromlin-071211001EmigreWebOnly.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrandonRegular';
+    src: url('../fonts/Brandon_reg.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrandonRegularBlack';
+    src: url('../fonts/Brandon_blk.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BrandonRegularBold';
+    src: url('../fonts/Brandon_bld.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body { font-family: Verdana, Geneva, sans-serif; font-size: 12px; color: #595456; background-color: #e8e9e7; }
+
+.bx-pager { display: none; }
+
+.block-wrapper { margin: auto; display: block; float: left; width: 100%; background-color: #e8e9e7; }
+    .block { margin: auto; display: block; width: 900px; }
+    
+        .block .block-about { margin: auto; display: block; float: left; width: 900px; border-top: 1px solid #aca295; }
+            .block .block-about .col3-col1 { width: 214px; display: table-cell; vertical-align: middle; margin: auto; text-align: right; padding: 0px 6px 0px 0px; }
+                .block .block-about .col3-col1 h1 { font-family: BrandonRegularBlack; font-size: 14px; line-height: 16px; color: #97674f; text-transform: uppercase; letter-spacing: 1px; padding: 0px 0px 20px 0px; }
+                .block .block-about .col3-col1 p { font-family: MrsEavesRomanLiningRegular; font-size: 14px; line-height: 16px; color: #97674f; padding: 0px 0px 20px 0px; }
+            .block .block-about .col3-col2 { width: 435px; display: table-cell; vertical-align: middle; margin: auto; text-align: center; padding: 0px 0px 0px 0px; }
+            .block .block-about .col3-col3 { width: 215px; display: table-cell; vertical-align: middle; margin: auto; text-align: left; padding: 0px 0px 0px 30px;  }
+                .block .block-about .col3-col3 h1 { font-family: BrandonRegularBlack; font-size: 14px; line-height: 16px; color: #97674f; text-transform: uppercase; letter-spacing: 1px; padding: 0px 0px 20px 0px; }
+                .block .block-about .col3-col3 h2 { font-family: BrandonRegularBold; font-size: 12px; line-height: 16px; color: #97674f; text-transform: uppercase; letter-spacing: 1px; }
+                .block .block-about .col3-col3 p { font-family: MrsEavesRomanLiningRegular; font-size: 14px; line-height: 16px; color: #97674f; padding: 0px 0px 20px 0px; }
+            .block .block-about .col3-centered { display: block; float: left; border-top: 1px solid #a67f6b; width: 460px; margin: 0px 210px 0px 225px; padding: 40px 0px 0px 0px; }
+                .block .block-about .col3-centered h1 { font-family: BrandonRegularBlack; font-size: 18px; color: #97674f; text-transform: uppercase; letter-spacing: 1px; text-align: center; }
+                .block .block-about .col3-centered p { font-family: MrsEavesRomanLiningRegular; font-size: 14px; line-height: 16px; color: #97674f; text-align: center; }
+            .block .block-about .col2 { display: block; float: left; width: 900px; margin: auto; margin: 30px 0px 10px 0px; padding: 0px; background: url('../graphics/col2-bg.png') repeat-y center; }
+                .block .block-about .col2 .col2-col1 { display: block; float: left; width: 437px; text-align: right; padding: 0px 15px 0px 0px; }
+                    .block .block-about .col2 .col2-col1 p { font-family: BrandonRegular; font-size: 14px; line-height: 10px; color: #3d3130; text-transform: uppercase; padding: 0px 0px 14px 0px; margin: 0px; }
+                    .block .block-about .col2 .col2-col1 p.last { font-family: BrandonRegular; font-size: 14px; line-height: 10px; color: #3d3130; text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px; }
+                .block .block-about .col2 .col2-col2 { display: block; float: left; width: 435px; text-align: left; padding: 0px 0px 0px 13px; }
+                    .block .block-about .col2 .col2-col2 p { font-family: BrandonRegular; font-size: 14px; line-height: 10px; color: #3d3130; text-transform: uppercase; padding: 0px 0px 14px 0px; margin: 0px; }
+                    .block .block-about .col2 .col2-col2 p.last { font-family: BrandonRegular; font-size: 14px; line-height: 10px; color: #3d3130; text-transform: uppercase; padding: 0px 0px 0px 0px; margin: 0px; }
+    
+        #advisory-holder { border-top: 1px solid #aca295; }
+        .block .block-advisory { margin: auto; display: block; float: left; width: 900px; }
+        
+            .block .block-advisory .advisory-header-holder { width: 900px; float: left; display: block; border-top: 1px solid #aca295; border-bottom: 1px solid #aca295; }
+                .block .block-advisory .advisory-header-holder .advisory-header-column-left { margin: 7px 0px 7px 0px; padding: 0px 11px 0px 0px; width: 438px; float: left; display: block; border-right: 1px solid #855f3b; }
+                    .block .block-advisory .advisory-header-holder .advisory-header-column-left p { color: #97674f; font-family: BrandonRegular; font-size: 16px; font-weight: bold; text-align: right; text-transform: uppercase; letter-spacing: 2px; }
+                .block .block-advisory .advisory-header-holder .advisory-header-column-right { margin: 7px 0px 7px 0px; padding: 0px 0px 0px 11px; width: 439px; float: left; display: block; }
+                    .block .block-advisory .advisory-header-holder .advisory-header-column-right p { color: #97674f; font-family: BrandonRegular; font-size: 16px; font-weight: bold; text-align: left; text-transform: uppercase; letter-spacing: 2px; }
+                    
+            .block .block-advisory .advisory-footer-holder { width: 900px; float: left; display: block; }        
+                .block .block-advisory .advisory-footer-holder .advisory-footer-column-left { margin: 10px 0px 7px 0px; padding: 2px 8px 0px 0px; width: 441px; float: left; display: block; border-right: 1px solid #855f3b; }
+                    .block .block-advisory .advisory-footer-holder .advisory-footer-column-left p { color: #97674f; font-family: MrsEavesRomanLiningRegular; font-size: 19px; font-weight: normal; text-align: right; letter-spacing: 2px; }
+                    .block .block-advisory .advisory-footer-holder .advisory-footer-column-left a { color: #97674f; text-decoration: none; }
+                    .block .block-advisory .advisory-footer-holder .advisory-footer-column-left a:hover { text-decoration: underline; }
+                .block .block-advisory .advisory-footer-holder .advisory-footer-column-right { margin: 7px 0px 7px 0px; padding: 5px 0px 0px 11px; width: 439px; float: left; display: block; }
+                    .block .block-advisory .advisory-footer-holder .advisory-footer-column-right p { color: #97674f; font-family: MrsEavesRomanLiningRegular; font-size: 20px; font-weight: normal; text-align: left; letter-spacing: 2px; }
+                    .block .block-advisory .advisory-footer-holder .advisory-footer-column-right a { color: #97674f; text-decoration: none; }
+                    .block .block-advisory .advisory-footer-holder .advisory-footer-column-right a:hover { text-decoration: underline; }
+            
+            .block .block-advisory .advisory-content-holder { padding: 0px; width: 900px; float: left; display: table; }
+                .block .block-advisory .advisory-content-holder .advisory-column-left { padding: 0px; width: 450px; display: table-cell; vertical-align: middle; }
+                    .block .block-advisory .advisory-content-holder .advisory-column-left img { display: block; margin: auto; }
+                .block .block-advisory .advisory-content-holder .advisory-column-right { padding: 11px; width: 428px; }
+                    .block .block-advisory .advisory-content-holder .advisory-column-right h1 { font-family: BrandonRegularBold; font-size: 75px; line-height: 60px; color: #3d3130; text-transform: uppercase; margin-left: -6px; }
+                    .block .block-advisory .advisory-content-holder .advisory-column-right h2 { font-family: BrandonRegularBold; font-size: 30px; line-height: 26px; color: #3d3130; text-transform: uppercase; margin-left: -2px; padding: 0px 0px 10px 0px; }
+                    .block .block-advisory .advisory-content-holder .advisory-column-right h3 { font-family: MrsEavesRomanLiningRegular; font-size: 20px; color: #3d3130; font-weight: bold; padding: 0px 0px 7px 0px; }
+                    .block .block-advisory .advisory-content-holder .advisory-column-right p { font-family: MrsEavesRomanLiningRegular; font-size: 16px; line-height: 19px; color: #3d3130; padding: 2px 0px 20px 0px; }
+                
+            .block .block-advisory .advisory-small-content-holder { padding: 11px 20px 11px 20px; width: 860px; float: left; display: block; border-top: 1px solid #aca295; border-bottom: 1px solid #aca295; }
+                .block .block-advisory .advisory-small-content-holder p { font-family: MrsEavesRomanLiningRegular; color: #97674f; font-size: 16px; text-align: center; line-height: 19px; }
+            
+            .block .block-advisory .block-advisory-separator { float: left; display: block; width: 900px; height: 4px; background: url(../graphics/stories-content-left-separator.png) repeat-x; }
+                    
+                    
+                    
+        .block .block-stories { margin: auto; display: block; float: left; width: 900px; background: url(../graphics/stories-bg.png) repeat-y; }
+        
+            .block .block-stories .stories-column-right { float: left; display: block; width: 260px; padding: 0px 25px 0px 0px; overflow-y: scroll; overflow-x: hidden; }
+                .block .block-stories .stories-column-right .news { float: left; display: block; width: 260px; padding: 0px 0px 15px 0px; }
+                    .block .block-stories .stories-column-right .news h1 { font-family: BrandonRegularBold; font-size: 30px; line-height: 28px; color: #aca295; text-align: center; text-transform: uppercase; padding: 10px 0px 5px 0px; }
+                    .block .block-stories .stories-column-right .news h2 { font-family: BrandonRegularBold; font-size: 13px; color: #ffffff; text-align: center; text-transform: uppercase; padding: 0px 0px 0px 0px; background: url(../graphics/news-header.png) no-repeat top; height: 28px; }
+                    .block .block-stories .stories-column-right .news h6 { font-family: MrsEavesRomanLiningRegular; font-size: 14px; font-style: italic; color: #aca295; text-align: center; letter-spacing: -1px; }
+                    .block .block-stories .stories-column-right .news p { font-family: MrsEavesRomanLiningRegular; font-size: 14px; color: #aca295; text-align: left; line-height: 16px; padding: 5px 0px 10px 0px; }
+                    
+            .block .block-stories .stories-column-left { float: left; display: block; width: 587px; padding: 0px 28px 0px 0px; margin-top: -20px; }
+            .block .block-stories .stories-column-left .story { float: left; display: block; width: 587px; padding: 20px 0px 0px 0px; }
+                .block .block-stories .stories-column-left .story .sotry-image-holder { width: 587px; text-align: center; }
+                .block .block-stories .stories-column-left .story .sotry-image-holder img { }
+                .block .block-stories .stories-column-left .story h5 { font-family: 'MrsEavesRomanLiningRegular', sans-serif; font-size: 14px; color: #a0968a; text-align: center; letter-spacing: 0px; font-style: italic; font-weight: normal; padding-top: 5px; }
+                .block .block-stories .stories-column-left .story h1 { font-family: BrandonRegularBold; font-size: 50px; color: #3d3130; text-align: center; text-transform: uppercase; line-height: 45px; padding: 4px 0px 2px 0px; }
+                .block .block-stories .stories-column-left .story h6 { font-family: 'Josefin Sans', sans-serif; font-weight: bold; font-size: 13px; color: #a0968a; text-align: center; line-height: 14px; padding-top: 3px; }
+                    .block .block-stories .stories-column-left .story .stories-column-left-separator { float: left; display: block; width: 587px; height: 4px; background: url(../graphics/stories-content-left-separator.png) repeat-x; }
+                    .block .block-stories .stories-column-left .story .stories-content-holder { float: left; display: block; margin: auto; width: 587px; background: url(../graphics/stories-content-bg.png) repeat-y; margin: 20px 0px 15px 0px; }
+                        .block .block-stories .stories-column-left .story .stories-content-holder .stories-content-column-left { display: block; float: left; margin: auto; width: 286px; padding: 0px 17px 0px 0px; }
+                        .block .block-stories .stories-column-left .story .stories-content-holder .stories-content-column-left p { font-family: MrsEavesRomanLiningRegular; font-size: 14px; color: #3d3130; text-align: left; line-height: 16px; }
+                        .block .block-stories .stories-column-left .story .stories-content-holder .stories-content-column-right { display: block; float: left; margin: auto; width: 283px; padding: 0px 0px 0px 0px; }
+                        .block .block-stories .stories-column-left .story .stories-content-holder .stories-content-column-right p { font-family: MrsEavesRomanLiningRegular; font-size: 14px; color: #3d3130; text-align: left; line-height: 16px; }
+            
+                        
+    .block-cases { margin: auto; display: block; width: 1000px; }
+    
+        .block-cases .cases { margin: auto; display: block; width: 1000px; float: left; }
+            .block-cases .cases .case { margin: auto; display: block; width: 1000px; float: left; }
+                .block-cases .cases .case div.slideshow-caption { display: none; }
+                .block-cases .cases .case h1 { margin: auto; width: 900px; font-family: BrandonRegularBold; color: #3d3130; font-size: 30px; text-transform: uppercase; border-top: 1px solid #a0968a; text-align: center; padding: 1px 0px 1px 0px; }
+                .block-cases .cases .case .slideshow-container { width: 1000px; display: none; }
+                    .block-cases .cases .case .slideshow-container .slideshow-holder { width: 900px; height: 540px; display: block; float: left; background-color: #e8e9e7; }
+                        .block-cases .cases .case .slideshow-container .slideshow-holder #slideshow { overflow: hidden; width: 900px; height: 540px; padding: 0; margin: 0 auto; list-style-type: none; }
+                        .block-cases .cases .case .slideshow-container .slideshow-holder #slideshow li { list-style-type: none; }
+                    .block-cases .cases .case .slideshow-container .slideshow-left { text-align: center; width: 50px; height: 542px; display: table; float: left;}
+                        .block-cases .cases .case .slideshow-container .slideshow-left .arrow-left { display: table-cell; vertical-align: middle; }
+                    .block-cases .cases .case .slideshow-container .slideshow-right { text-align: center; width: 50px; height: 542px; display: table; float: left; position: relative; }
+                        .block-cases .cases .case .slideshow-container .slideshow-right .arrow-right { display: table-cell; vertical-align: middle; }
+                    .counter { position: absolute; bottom: -3px; left: 13px; color: #aca295; font-family: MrsEavesRomanLiningRegular; font-size: 17px; }
+                .block-cases .cases .case .slideshow-menu { color: #a0968a; width: 900px; font-weight: bold; height: 48px; display: block; float: left; margin: 0px 50px 0px 50px; text-align: center; font-family: BrandonRegular; font-size: 16px; text-transform: uppercase; letter-spacing: 3px; background: url(../graphics/cases-menu-bottom.png) repeat-x bottom; line-height: 43px; }
+                    .block-cases .cases .case .slideshow-menu a { color: #aca295; text-decoration: none; }
+                    .block-cases .cases .case .slideshow-menu a:hover { color: #3c302f; text-decoration: none; }
+                    .block-cases .cases .case .slideshow-menu a.active { color: #3c302f; text-decoration: none; }
+                .block-cases .cases .case p { width: 900px; float: left; display: block; margin: 0px 50px 0px 50px; font-family: MrsEavesRomanLiningRegular; color: #3c302f; font-size: 17px; text-align: center; padding: 10px 0px 20px 0px; line-height: 21px; }
+                
+                
+    #main-menu-container { width: 100%; position: fixed; top: 0px; z-index: 2000; }
+        #main-menu { letter-spacing: 4px; font-size: 14px; font-family: BrandonRegular; font-weight: bold; text-transform: uppercase; height: 27px; padding: 9px 0px 0px 0px; border-bottom: 1px solid #aca295; text-align: center; color: #aca295; }
+            #main-menu a { color: #aca295; text-decoration: none; text-align: center;  }
+            #main-menu a:hover { color: #5a5456; }
+    #logo-container { width: 100%; height: 187px; }
+        #logo { width: 900px; height: 187px; }
+    
+    #news-ticker { font-size: 14px; font-family: BrandonRegular; padding-top: 4px; height: 26px; border-top: 1px solid #aca295; text-align: center; color: #3d3130; }
+        #news-ticker .marquee { overflow: hidden; }
+        #news-ticker a { color: #3d3130; text-decoration: none; }
+    
+    #home-promo { height: 290px; display: table; border-top: 1px solid #aca295; }
+        #home-promo h1 { font-family: BrandonRegularBold; text-transform: uppercase; font-size: 26px; text-align: center; display: table-cell; vertical-align: middle; }
+        
+    #home-image { height: 345px; background: url('../graphics/main-img.png') no-repeat; }
+    
+    #footer-container { font-family: MrsEavesRomanLiningRegular; text-transform: uppercase; font-size: 9px; line-height: 9px; color: #5a5456; letter-spacing: 4px; }
+        #footer-container p { font-family: MrsEavesRomanLiningRegular; text-transform: uppercase; font-size: 9px; line-height: 9px; color: #5a5456; letter-spacing: 4px; }
+        #footer-container a { font-family: MrsEavesRomanLiningRegular; text-transform: uppercase; font-size: 9px; line-height: 9px; color: #5a5456; letter-spacing: 4px; text-decoration: none; }
+        
+/************************************************************************************
+CLEARFIX
+*************************************************************************************/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; zoom: 1; }
